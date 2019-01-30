@@ -6,7 +6,7 @@ VMware Community Orchestration Tool (aka VMCOT) is an open-source project that h
 
 ### 0. REQUIREMENTS & INSTALLATION
 
-These are the ***requirements*** that you need to meet in order to be able to use this tool:
+These are the ***Requirements*** that you need to meet in order to be able to use this tool:
 
 1. Server that will be used to run the script needs to be Windows 2008R2 or later version.
 1. PowerShell 5.x or later version.
@@ -18,7 +18,7 @@ These are the ***requirements*** that you need to meet in order to be able to us
 1. Network communication on 443/TCP/HTTPS to each vCenter instance.
 1. This tool has been sucessfully tested against VMware ESXi 5.x/6.x platforms, plus vSAN 6.x environments.
 
-This the ***instalation/configuration*** process:
+This is the ***Instalation/Configuration*** process:
 
 1. Download/Import all the ***5 modules*** that are part of this tool (each modules is composed by a .psm1 & .psd1 file):
    - ***VMCOT.Powershell.functions_gui:*** This module provides .Net Windows System Forms to the application.
