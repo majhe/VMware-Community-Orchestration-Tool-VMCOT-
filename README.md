@@ -37,15 +37,17 @@ This is the ***Instalation/Configuration*** process:
 If you're planning to start a project by also using source code provided for this tool, feel free to link you're Branch with mine, I'm expecting to continue adding new features to the tool with the time.
 
 Feel free to contact me if you have Comments/Questions/Suggestions/Issues/Bugs to report.
-GitHub Reposotiry: https://github.com/majhe/VMware-Community-Orchestration-Tool-VMCOT-
-LinkedIn: https://www.linkedin.com/in/majhe
+- GitHub Reposotiry: https://github.com/majhe/VMware-Community-Orchestration-Tool-VMCOT-
+- LinkedIn: https://www.linkedin.com/in/majhe
 
 ### 1. STARTING/RUNNING THE APPLICATION: 
 In order to start the application (as long as you installed and configured script files according to the instructions above), you'll only need to open a Windows PowerShell session and run the following command on a PowerShell line:
 > VMCOTVMwareTool
 
 ### 2. GETTING FAMILIAR WITH THE GUI: 
- 
+
+![alt text](https://github.com/majhe/VMware-Community-Orchestration-Tool-VMCOT-/blob/master/Images/CMCOT-Main.png)
+
 Here's the list and use for each one of the available buttons that are present on the main application console. 
  
 1. **Connect/Change vCenter Instance:** You will be able to Connect/Disconnect to any of the vCenter instances that are part of the environment. 
