@@ -32,6 +32,14 @@ This the ***instalation/configuration*** process:
    - **C:\Program Files (x86)\VMware\Infrastructure\PowerCLI\Modules**
    - **C:\Users\%USERNAME%\Documents\WindowsPowerShell\Modules**
 
+1. ***CAUTION WHILE USING THIS TOOL IS ADVICED***: Make sure to read all the instructions provided. If this tool is not used in an appropiate way, you might be at risk of impacting your infrastructure. Doing your own research is always adviced also.
+
+If you're planning to start a project by also using source code provided for this tool, feel free to link you're Branch with mine, I'm expecting to continue adding new features to the tool with the time.
+
+Feel free to contact me if you have Comments/Questions/Suggestions/Issues/Bugs to report.
+GitHub Reposotiry: https://github.com/majhe/VMware-Community-Orchestration-Tool-VMCOT-
+LinkedIn: https://www.linkedin.com/in/majhe
+
 ### 1. STARTING/RUNNING THE APPLICATION: 
 In order to start the application (as long as you installed and configured script files according to the instructions above), you'll only need to open a Windows PowerShell session and run the following command on a PowerShell line:
 > VMCOTVMwareTool
