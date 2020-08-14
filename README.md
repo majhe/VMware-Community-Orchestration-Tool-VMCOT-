@@ -1,7 +1,7 @@
 # VMware-Community-Orchestration-Tool-VMCOT-
 ##### Developed by Mario Herrera under GNU General Public License terms.
 
-VMware Community Orchestration Tool (aka VMCOT) is an open-source project that has been created for all those VMware infrastructure administrators which happen to need to query &amp; bulk configure multiple ESXi/vSphere environments in a centralized way.
+VMware Community Orchestration Tool (aka VMCOT) is an open-source project that has been created for all those VMware infrastructure administrators which happen to need to query &amp; bulk configure multiple ESXi/vSphere environments in a centralized way. Feel free to contact me if any particular need, comment or contribution.
 
 
 ### 0. REQUIREMENTS & INSTALLATION
@@ -17,6 +17,7 @@ These are the ***Requirements*** that you need to meet in order to be able to us
 1. .Net Framework 4.6
 1. Network communication on 443/TCP/HTTPS to each vCenter instance.
 1. This tool has been sucessfully tested against VMware ESXi 5.x/6.x platforms, plus vSAN 6.x environments.
+1. Hopefully I will developed an updated release of this tool with features tested on 7.0 release and additional features.
 
 This is the ***Instalation/Configuration*** process:
 
@@ -31,6 +32,13 @@ This is the ***Instalation/Configuration*** process:
    - **C:\Windows\System32\WindowsPowerShell\v1.0\Modules** (this is my personal prefered method, all users will be able to run the application).
    - **C:\Program Files (x86)\VMware\Infrastructure\PowerCLI\Modules**
    - **C:\Users\%USERNAME%\Documents\WindowsPowerShell\Modules**
+
+1. Make sure to replace "vcenter01p.domain.local" with your vcenter hostname. This needs to be changed on the following files:
+   - **VMCOT.Powershell.functions_helper.psm1** (Line 16 & Line 17)
+   - **VMCOT.Powershell.functions_gui.psm1** (Line 31)
+
+1. Important: If your vCenter uses a Self-Signed Certificate (which is usually the case), make sure to run the following command on your PowerCLI Session:
+   - **Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false**
 
 1. ***CAUTION WHILE USING THIS TOOL IS ADVICED***: Make sure to read all the instructions provided. If this tool is not used in an appropiate way, you might be at risk of impacting your infrastructure. Doing your own research is always adviced also.
 
