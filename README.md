@@ -1,5 +1,5 @@
 # VMware-Community-Orchestration-Tool-VMCOT-
-##### Developed by Mario Herrera under GNU General Public License terms.
+##### Developed by Mario Herrera under GNU General Public License terms (2018/2019/2020)
 
 VMware Community Orchestration Tool (aka VMCOT) is an open-source project that has been created for all those VMware infrastructure administrators which happen to need to query &amp; bulk configure multiple ESXi/vSphere environments in a centralized way. Feel free to contact me if any particular need, comment or contribution.
 
